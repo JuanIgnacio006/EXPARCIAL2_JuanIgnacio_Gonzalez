@@ -6,11 +6,6 @@
 #define EJ2_H
 
 
-
-class ej2 {
-
-};
-
-
+void dia();
 
 #endif //EJ2_H
