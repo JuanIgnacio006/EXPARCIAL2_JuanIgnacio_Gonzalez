@@ -1,4 +1,4 @@
-# EXPARCIAL2_JuanIgnacio_Gonzalez
+# EXAMEN JUAN IGNACIO GONZÁLEZ DE LA PEÑA
 https://github.com/JuanIgnacio006/EXPARCIAL2_JuanIgnacio_Gonzalez.git
 
 ## Instrucciones de Entrega
