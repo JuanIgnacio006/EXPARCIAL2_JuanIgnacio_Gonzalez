@@ -6,11 +6,7 @@
 #define EJ3_H
 
 
-
-class ej3 {
-
-};
-
+void promedio();
 
 
 #endif //EJ3_H

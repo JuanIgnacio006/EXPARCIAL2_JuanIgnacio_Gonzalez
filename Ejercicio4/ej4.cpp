@@ -7,21 +7,42 @@ muestre el total que el cliente debe pagar bajo esta promoción.*/
 using namespace std;
 void oferta()
 {
-float precio1,precio2,precio3;
-cout<<"Ingrese el precio del primer articulo: ";cin>>precio1;
-cout<<"Ingrese el precio del segundo articulo: ";cin>>precio2;
-cout<<"Ingrese el precio del tercer articulo: ";cin>>precio3;
+    float precio1,precio2,precio3;
+    cout<<"Ingrese el precio del primer articulo: ";cin>>precio1;
+    cout<<"Ingrese el precio del segundo articulo: ";cin>>precio2;
+    cout<<"Ingrese el precio del tercer articulo: ";cin>>precio3;
 
     if(precio1>precio2 && precio1>precio3)
     {
-        cout<<"El total a pagar es: "<<precio1+precio2<<endl;
+        cout<<"El total a pagar es: "<<precio2+precio3<<endl;
     }
     else if(precio2>precio1 && precio2>precio3)
     {
-        cout<<"El total a pagar es: "<<precio2+precio1<<endl;
+        cout<<"El total a pagar es: "<<precio1+precio3<<endl;
+    }
+    else if(precio3>precio1 && precio3>precio2)
+    {
+        cout<<"El total a pagar es: "<<precio1+precio2<<endl;
+    }
+    else if(precio1==precio2 && precio1>precio3)
+    {
+        cout<<"El total a pagar es: "<<precio1+precio2<<endl;
+    }
+    else if(precio1==precio3 && precio1>precio2)
+    {
+        cout<<"El total a pagar es: "<<precio1+precio3<<endl;
+    }
+    else if(precio2==precio3 && precio2>precio1)
+    {
+        cout<<"El total a pagar es: "<<precio2+precio3<<endl;
+    }
+    else if(precio1==precio2 && precio1==precio3)
+    {
+        cout<<"El total a pagar es: "<<precio1+precio2<<endl;
     }
     else
     {
-        cout<<"El total a pagar es: "<<precio3+precio1<<endl;
+        cout<<"El total a pagar es: "<<precio1+precio2<<endl;
     }
 }
+
