@@ -5,12 +5,6 @@
 #ifndef EJ4_H
 #define EJ4_H
 
-
-
-class ej4 {
-
-};
-
-
+void oferta();
 
 #endif //EJ4_H
