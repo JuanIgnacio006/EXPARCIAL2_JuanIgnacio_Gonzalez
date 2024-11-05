@@ -1,3 +1,9 @@
-//
-// Created by Usuario on 05/11/2024.
-//
+#include "Ejercicio1/ej1.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+    comprobacion();
+
+    return 0;
+}

@@ -5,12 +5,7 @@
 #ifndef EJ1_H
 #define EJ1_H
 
-
-
-class ej1 {
-
-};
-
+void comprobacion();
 
 
 #endif //EJ1_H
