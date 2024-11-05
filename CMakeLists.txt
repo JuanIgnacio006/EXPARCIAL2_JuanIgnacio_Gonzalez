@@ -8,4 +8,8 @@ add_executable(EXPARCIAL2_JuanIgnacio_Gonzalez
     .idea/vcs.xml
     .idea/workspace.xml
     main.cpp
-    README.md)
+    README.md
+        Ejercicio1/ej1.cpp
+        Ejercicio2/ej2.cpp
+        Ejercicio3/ej3.cpp
+        Ejercicio4/ej4.cpp)
